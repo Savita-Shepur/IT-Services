@@ -1,0 +1,412 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+body {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
+/* home section*/
+.video-container {
+    position: relative;
+    width: 100%; 
+    height: 100vh; 
+    overflow: hidden;
+    font-family: 'Ubuntu', sans-serif;
+    background-image: url(../Images/home1.jpg);
+    background-position: center;
+    background-size: 100% 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+  
+}
+
+
+
+video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+}
+
+.text-overlay{
+width: 80%;
+    position: absolute;
+  top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    z-index: 2; 
+    background-color: #1576AA;
+    opacity: 0.9;
+    border: 1px solid  #1576AA;
+    border-radius: 10px;
+    font-size: 8px;
+   
+}
+.navbar{
+    z-index: 1;
+    color: white;
+    height: auto;
+}
+
+.navbar-home{
+    z-index: 1;
+    color: white;
+    height: auto;
+    position: sticky;
+    top: 0;
+}
+
+.navbar-toggler{
+ color: white;
+ background-color: white;
+}
+
+
+
+.section-third{
+    height: auto;
+}
+
+.third{
+    position: relative;
+    height: 80vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+.third-second{
+    height: auto;
+    position: absolute;
+    top: 0;
+}
+
+.third-first{
+    height: auto;
+    position: relative;
+    z-index: 1;
+    top: 40%;
+
+}
+
+.section-four{
+    height: auto;
+    position: relative;
+}
+.four-first{
+    height: auto;
+    background-image: url(../Images/home-3rd.jpg);
+    background-size: 100% 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.zoomable {
+  
+    transition: transform 0.3s ease-out;
+}
+
+.zoomable:hover {
+    transform: scale(1.05); /* Adjust scale for zoom-out effect */
+}
+
+
+
+
+/* Text styles */
+
+.text-effect:hover {
+    color: white; 
+    background-color: #12ABDB;
+    transition: all 0.4s ease-out;/* Optional: Change text color on hover */
+}
+
+
+
+
+
+
+/* Button styles */
+.zoom-button {
+    padding: 15px 30px;
+    font-size: 18px;
+    color:black;
+    background-color: white; /* Default background color */
+    border:2px solid  gray;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transitions */
+}
+
+/* Hover effect */
+.zoom-button:hover {
+    background-color: #12ABDB;
+    border:2px solid #12ABDB;
+    color: white; /* Change to your desired color */
+    transform: scale(1.09); /* Slight zoom-out effect */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Insights section */
+
+.banner-insights{
+    height: 55vh;
+    width: 100%;
+    background-image: url(../Images/home2.jpg);
+    background-position: center;
+    background-size: 100% 100%;
+    background-size: cover;
+   
+}
+.fifth-insights{
+    height: 60vh;
+    width: 100%;
+    background-image: url(../Images/dics4.jpg);
+    background-position: center;
+    background-size: 100% 100%;
+    background-size: cover;
+   
+}
+
+
+
+/* career section */
+.banner-career{
+    height: 70vh;
+    width: 100%;
+    background-image: url(../Images/car1.jpg);
+    background-position: center;
+    background-size: 100% 100%;
+    background-size: cover;
+    background-position: center;
+   
+}
+.img-career{
+
+    object-fit: fill;
+
+}
+.career-four1{
+    position:relative;
+    bottom: 20%;
+}
+.career-div{
+    background-color: #12ABDB;
+}
+
+
+/* news section */
+.banner-news{
+    height: 55vh;
+    width: 100%;
+    background-image: url(../Images/about2.jpg);
+    background-position: center;
+    background-size: 100% 100%;
+    background-size: cover;
+   
+}
+
+.fifth-img{
+    height: 70vh;
+    width: 100%;
+}
+
+
+/* About Us SEction */
+.banner-about{
+    height: 50vh;
+    width: 100%;
+    background-image: url(../Images/banner2.jpg);
+    background-position: center;
+    background-size: 100% 100%;
+    background-size: cover;
+
+  
+   
+}
+.about-banner{
+    height: auto;
+    width: 100%;
+  
+}
+.text-overlay-about {
+width: 80%;
+        position: absolute;
+      top: 60%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        text-align: center;
+        z-index: 2; 
+        background-color: #1576AA;
+        opacity: 0.9;
+        border: 1px solid  #1576AA;
+        border-radius: 10px;
+        font-size: 8px;
+       
+    }
+
+
+
+    .contact-card {
+      border: none;
+      box-shadow: 3px 4px 8px rgba(0, 0, 0, 0.1);
+      border-radius: 10px;
+      text-align: center;
+     
+    }
+    .contact-card img {
+  
+      border-radius: 50%;
+      margin-bottom: 15px;
+    }
+    .img-card{
+        width: 170px;
+ 
+    }
+
+    .contact-card .btn {
+      border-radius: 50%;
+      /* padding: 10px;
+      width: 40px;
+      height: 40px;
+      font-size: 16px; */
+    }
+
+
+    /* btn{
+        border-radius: 50%;
+    } */
+    /* .btn {
+        margin: 0 5px;
+        border-radius: 50%;
+        padding: 10px;
+        width: 40px;
+        height: 40px;
+        font-size: 16px;
+      } */
+
+      .home-fix{
+        position: sticky;
+        top: 0;
+        z-index: 1020; 
+       overflow-x:visible;
+        box-shadow: 3px 4px 8px rgba(0, 0, 0, 0.1);
+        background-color: white;
+      }
+
+    
+
+
+
+
+
+
+
+
+
+
+@media(min-width: 768px){
+   
+
+    /* home section */
+    .video-container {
+      
+        height: 90vh; 
+    }
+
+    .text-overlay{
+        max-width: 700px;
+           position: absolute;
+         top: 70%;
+           left: 40%;
+         
+           transform: translate(-50%, -50%);
+    }
+    .third-first{
+        height: 300px;
+        position: relative;
+        left: 8%;
+        top: 0;
+    }
+        .third{
+            position: relative;
+            height: auto;
+            width: 100%;
+        }
+        
+        .third-second{
+         height: 400px;
+            position: absolute;
+          right: 0;
+        }
+        
+    
+    .four-second{
+        position: relative;
+        right: 50px;
+    }
+  .four-first{
+    height: 400px;
+    width: 100%;
+    object-fit: fill;
+  }
+   
+    
+
+
+
+  /* about-section */
+  .text-overlay-about {
+    width: 40%;
+    position: absolute;
+    top: 60%;
+      left: 30%;
+  }
+
+}
+
+
+
+/* Animation */
+
+@keyframes home-ani{
+    from{
+        position:static
+     
+    }
+    
+    to{
+       position: fixed;
+       top: 0;
+    }
+}
